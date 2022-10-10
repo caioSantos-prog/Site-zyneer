@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'moda';
+    src: url('../fonte/BodoniModa-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+#logo-zyneer{
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+body{
+    color: black;
+    background-color: #FEFEFE;
+}
+
+main{
+    background-color:beige;
+}
+
+h1{
+    text-align: center;
+    font-family:moda;
+    font-size: 50px;
+}
+
+#poster-apresentacao{
+    height: 100%;
+    width: 100%;
+}
+img{
+    max-height: 2000px;
+}
+
+.icn{
+    width: 40px;
+    height: 40px;
+}
+
+a{
+    text-decoration: solid;
+    color: black;
+    font-family: moda;
+    font-size: 20px
+}
+.galeria{
+    max-height: 50px;
+    max-height: 300px;
+}
+#bloco-galeria{
+    display: flex;
+    background-color: #ffebcd;
+    justify-content: space-around;
+}
+
+/*#faixa-galeria{
+    background-image: url(../Imagens/Zyneer.png);
+    position: fixed;
+}
+*/
+a:hover{
+    text-decoration: solid;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#barra-baixo{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: #D4D4D6;
+
+}
+
+#faixa-galeria{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#caixa-login{
+    background-color: #D4D4D6;
+    border-radius: 15%;
+    height: 650px;
+    width: 450px;
+    margin: 20px auto;
+
+}
+
+#zyneer-logo{
+    display: block;
+    margin: 0px auto;
+    max-width: 200px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 380px;
+    font-family: moda;
+    font-size: 1.1em;
+}
+
+button{
+    display: block;
+    margin: 50px auto;
+    width: 163.5px;
+    font-family: moda;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#esqueceu{
+    display: flex;
+    justify-content: center;
+    font-family: moda;
+    padding: 50px 0px 0px 0px;
+}
+
+.pt-login{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 36px;
+}
