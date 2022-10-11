@@ -85,7 +85,7 @@ a:hover{
     height: 650px;
     width: 450px;
     margin: 20px auto;
-
+    box-shadow: 0px 10px 35px;
 }
 
 #zyneer-logo{
