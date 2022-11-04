@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'moda';
+    src: url('../fonte/BodoniModa-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+form{
+    display: block;
+    margin: 0px auto;
+    max-width: 245px;
+}
+
+section{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'moda';
+}
+
+h1{
+    font-family: 'moda';
+}
+.pt-formulário{
+    font-size: 25px;
+}
+
+.pt-input{
+    width: 240px;
+}
+
+ul{
+    list-style: none;
+}
